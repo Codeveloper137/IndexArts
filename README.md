@@ -26,15 +26,11 @@ Para configurar y ejecutar el proyecto localmente, sigue estos pasos.
     ```bash
     cd IndexArts
     ```
-3.  ```bash
-Haz clic derecho en el archivo index.html. 
-    ```
-
-4.  ```bash
-Selecciona la opción "Open with Live Server" 
-(o haz clic en el botón "Go Live" en la parte inferior derecha de la ventana de VS Code) 
-    ```
-
+3. Haz clic derecho en el archivo index.html. 
+    
+4.  Selecciona la opción "Open with Live Server"    
+    (o haz clic en el botón "Go Live" en la parte inferior derecha de la ventana de VS Code)
+    
 ---
 
 De momento es sólo una maqueta con funcionalidades simuladas, falta implementar el Backend.
