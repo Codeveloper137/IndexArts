@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes / Ayuda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="bg-light pt-5">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-primary fw-bold" href="index.html">IndexArts</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios Digitales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Productos Físicos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="soporte.html">Soporte</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="carrito.html" class="btn btn-outline-primary position-relative">
+                            <i class="fa-solid fa-cart-shopping"></i> Carrito
+                            <span class="badge rounded-pill bg-danger" id="cart-count">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-lg-2"><a href="seleccion.html" class="btn btn-primary">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5" style="max-width: 900px;">
+        <h1 class="text-center mb-5 text-primary fw-bold">📚 Preguntas Frecuentes (FAQ)</h1>
+
+        <div class="accordion" id="faqAccordion">
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        ¿Qué métodos de pago aceptan?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Aceptamos **Tarjeta de Crédito** (Visa, MasterCard, Amex), **PSE** para transferencias bancarias
+                        directas, y **Otros Medios de Pago** como PayPal o billeteras digitales (dependiendo de tu
+                        ubicación).
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Cuál es su política de devoluciones?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Nuestra política varía según el tipo de producto/servicio. Para obtener detalles completos, por
+                        favor, visita nuestra página de <a href="devoluciones.html" class="text-danger fw-bold">Política de Devoluciones</a>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Cómo contacto a soporte técnico?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Puedes contactar a nuestro equipo de soporte a través de email, WhatsApp o línea telefónica.
+                        Todos los detalles están en nuestra página de <a href="soporte.html" class="text-info fw-bold">Soporte Técnico</a>.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        ¿Qué hago si mi pago fue abortado o falló?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Si tu proceso de pago falló (Tarjeta de Crédito, PSE u Otro Medio):
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check text-success me-2"></i> **Verifica la información:**
+                                Asegúrate de que los datos de tu tarjeta o cuenta bancaria sean correctos.</li>
+                            <li><i class="fa-solid fa-rotate-right text-info me-2"></i> **Intenta otro método:** Vuelve
+                                a la pantalla de pago y selecciona una alternativa.</li>
+                            <li><i class="fa-solid fa-headset text-primary me-2"></i> **Contacta a Soporte:** Si el
+                                error persiste, contáctanos en **soporte@indexarts.com** para ayudarte a finalizar la
+                                transacción.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        ¿Cómo recibo mi Servicio Digital o Producto Físico después de pagar?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Una vez que el pago es exitoso:
+                        <ul>
+                            <li>**Servicios Digitales:** El servicio se considera **"Agendado"**. Recibirás un **correo
+                                electrónico** con los pasos a seguir para coordinar la cita o el inicio del proyecto.
+                            </li>
+                            <li>**Productos Físicos:** Recibirás un correo de **confirmación de envío** con el número de
+                                guía para rastrear tu pedido.</li>
+                        </ul>
+                        <div class="alert alert-info mt-3 py-2 small">
+                            <i class="fa-solid fa-calendar-check me-2"></i> La **Cita/Envío** se coordina inmediatamente
+                            después de la confirmación del pago.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        ¿Es obligatorio calificar el servicio o producto que recibí?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        No es obligatorio, pero es **muy recomendable**.
+                        <p>Una vez que el servicio está realizado o el producto es entregado, se te pedirá que envíes
+                            una **calificación/feedback** (Flujo de Calificación) a través de la página de
+                            retroalimentación. Esto nos ayuda a mejorar la calidad de nuestros servicios.</p>
+                        <a href="feedback.html" class="btn btn-sm btn-outline-warning mt-2">Ir a la página de Feedback</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        ¿Qué pasos debo seguir para registrarme como nuevo cliente/estudiante?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        El proceso es sencillo y te permite acceder a todos los beneficios:
+                        <ol>
+                            <li>Ve a la opción **"Crear Cuenta"** en la página de <a href="seleccion.html">Selección de
+                                    Ingreso</a>.</li>
+                            <li>Completa el formulario de **Registro** con tus datos personales y define tu **Usuario y
+                                Contraseña**.</li>
+                            <li>Una vez registrado, serás redirigido a la página de <a href="login.html">Login</a> para
+                                iniciar sesión y empezar a comprar.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn btn-outline-secondary">← Volver al Inicio</a>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 mt-5 border-top border-primary border-4">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-6 col-md-3">
+                    <h5 class="text-primary border-bottom border-secondary pb-2 mb-3"><a href="/indexarts.html">IndexArts</a></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-opacity-75 text-decoration-none">Inicio</a></li>
+                        <li><a href="categorias.html" class="text-light text-opacity-75 text-decoration-none">Categorías</a></li>
+                        <li><a href="servicios.html" class="text-light text-opacity-75 text-decoration-none">Servicios Digitales</a></li>
+                        <li><a href="productos.html" class="text-light text-opacity-75 text-decoration-none">Productos Físicos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <h5 class="text-primary border-bottom border-secondary pb-2 mb-3"><a href="/usuarios.html">Ususarios</a></h5>
+                    <ul class="list-unstyled">
+                        <li><a href="seleccion.html" class="text-light text-opacity-75 text-decoration-none">Mi Cuenta / Login</a></li>
+                        <li><a href="carrito.html" class="text-light text-opacity-75 text-decoration-none">Ver Carrito</a></li>
+                        <li><a href="soporte.html" class="text-light text-opacity-75 text-decoration-none">Soporte Técnico</a></li>
+                        <li><a href="ayuda.html" class="text-light text-opacity-75 text-decoration-none">FAQ / Ayuda</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h5 class="text-primary border-bottom border-secondary pb-2 mb-3"><a href="/legal.html">Legal</a>
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="terminos.html" class="text-light text-opacity-75 text-decoration-none">Términos y Condiciones</a></li>
+                        <li><a href="privacidad.html" class="text-light text-opacity-75 text-decoration-none">Política de Privacidad</a></li>
+                        <li><a href="devoluciones.html" class="text-light text-opacity-75 text-decoration-none">Política de Devoluciones</a></li>
+                        <li><a href="aviso.html" class="text-light text-opacity-75 text-decoration-none">Aviso Legal</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-3 text-center text-md-start">
+                    <h5 class="text-primary border-bottom border-secondary pb-2 mb-3"><a href="/contacto.html">Contacto</a></h5>
+                    <div class="social-links d-flex justify-content-center justify-content-md-start gap-3 mb-3">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=3012455860" class="text-white fs-4" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/" class="text-white fs-4" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/" class="text-white fs-4" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/" class="text-white fs-4" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <p class="mb-0 text-light text-opacity-75">Email: codeveloper137@gmail.com</p>
+                    <p class="mb-0 text-light text-opacity-75">Bogotá, Colombia</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center py-3 mt-4 bg-dark border-top border-secondary border-opacity-25">
+            <p class="mb-0 text">&copy; 2025 IndexArts. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

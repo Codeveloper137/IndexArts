@@ -1,0 +1,31 @@
+/* css/styles.css
+   Estilos mínimos requeridos que Bootstrap no cubre.
+*/
+
+/* Es necesario para que el badge de Bootstrap se actualice en JS */
+.position-relative {
+    position: relative;
+}
+
+/* Color específico para los mensajes de alerta del login/registro */
+.alert.alert-success {
+    background-color: #d4edda !important;
+    color: #155724 !important;
+}
+
+.alert.alert-danger {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+}
+
+/* Estilos para el feedback de estrellas */
+.rating-stars .star {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.2s;
+}
+
+.rating-stars .star.gold {
+    color: gold;
+}
